@@ -1,20 +1,19 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
+import CardLin from './components/CardLin.vue'
 </script>
 
 <template>
 
   <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    
     <a href="https://vuejs.org/" target="_blank">
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
 
-  <HelloWorld msg="We're checking if this is a prop in vue." />
+  <CardLin lintted_name="This is gonna be a page about crypto currency"/>
+
+  <HelloWorld msg="We're checking if that thing it's going to work"/>
 </template>
 
 <style scoped>
