@@ -6,7 +6,15 @@ defineProps<{ msg: string }>()
 
 <template>
   <div>
-    {{ msg }}
+    <p class="color-message">{{ msg }}</p>
   </div>
 </template>
+
+<style scoped>
+
+.color-message {
+  max-width: 600px;
+}
+
+</style>
 

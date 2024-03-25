@@ -6,18 +6,18 @@ import HelloWorld from './components/HelloWorld.vue'
 <template>
 
   <div>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
+    <a href="https://anthony.breadriuss.store" target="_blank">
+      <img src="/brd-static/logo_recortado.png" class="logo vue" alt="Vue logo" />
     </a>
   </div>
 
 
-  <HelloWorld msg="We're checking if that thing it's going to work"/>
+  <HelloWorld msg="Ya termine de corregir todo lo de mi cv, ahora estoy practicando pruebas técnicas 🎉."/>
 </template>
 
 <style scoped>
 .logo {
-  height: 6em;
+  height: 3em;
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
@@ -26,6 +26,6 @@ import HelloWorld from './components/HelloWorld.vue'
   filter: drop-shadow(0 0 2em #646cffaa);
 }
 .logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
+  filter: drop-shadow(0 0 2em #a56febaa);
 }
 </style>
