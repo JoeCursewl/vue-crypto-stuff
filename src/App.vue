@@ -1,6 +1,9 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
 import CardLin from './components/CardLin.vue'
+import { ref } from 'vue'
+
+const arrozito = ref(1);
 </script>
 
 <template>
@@ -11,7 +14,7 @@ import CardLin from './components/CardLin.vue'
     </a>
   </div>
 
-  <CardLin lintted_name="This is gonna be a page about crypto currency"/>
+  <CardLin arroz={{ arrozito }}/>
 
   <HelloWorld msg="We're checking if that thing it's going to work"/>
 </template>
